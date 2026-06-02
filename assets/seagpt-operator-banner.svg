@@ -1,0 +1,67 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Steven Seagondollar — Agentic Systems, AI Engineering, Cloud Infrastructure</title>
+  <desc id="desc">Dark black-ice operator banner with network map and infrastructure topology.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020208"/>
+      <stop offset="0.48" stop-color="#060d18"/>
+      <stop offset="1" stop-color="#020812"/>
+    </linearGradient>
+    <linearGradient id="iceLine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C8FF" stop-opacity="0.38"/>
+      <stop offset="0.5" stop-color="#7DD3FC" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#4A9EFF" stop-opacity="0.28"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(940 170) rotate(160) scale(400 280)">
+      <stop stop-color="#00C8FF" stop-opacity="0.28"/>
+      <stop offset="0.45" stop-color="#00C8FF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#00C8FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#7DD3FC" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <filter id="nodeGlow" x="-60" y="-60" width="180" height="180" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .kicker{font:700 17px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:.22em;fill:#7DD3FC;opacity:.88}
+      .name{font:800 68px Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.04em;fill:#EDF4F8}
+      .sub{font:600 26px Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#BAE6FD;opacity:.90}
+      .stack{font:600 16px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:.06em;fill:#7DD3FC;opacity:.68}
+      .tiny{font:700 12px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:.16em;fill:#EDF4F8;opacity:.55}
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <rect width="1200" height="360" fill="url(#glow)"/>
+
+  <path d="M0 280C155 256 222 198 352 215C500 237 570 108 718 128C850 146 920 264 1200 224" stroke="url(#iceLine)" stroke-opacity="0.38" stroke-width="2.5"/>
+  <path d="M0 112C170 128 230 72 348 84C490 102 580 264 728 240C856 222 940 80 1200 98" stroke="#7DD3FC" stroke-opacity="0.10" stroke-width="1.2"/>
+
+  <g filter="url(#nodeGlow)">
+    <circle cx="870" cy="156" r="6" fill="#00C8FF"/>
+    <circle cx="985" cy="224" r="6" fill="#7DD3FC"/>
+    <circle cx="780" cy="248" r="5" fill="#4A9EFF"/>
+    <circle cx="1050" cy="110" r="5" fill="#BAE6FD"/>
+  </g>
+
+  <path d="M870 156L985 224L780 248L870 156Z" stroke="#7DD3FC" stroke-opacity="0.28" stroke-width="1.5"/>
+  <path d="M870 156L1050 110L985 224" stroke="#4A9EFF" stroke-opacity="0.20" stroke-width="1.2"/>
+
+  <circle cx="870" cy="156" r="52" stroke="#00C8FF" stroke-opacity="0.10" stroke-width="1" fill="none"/>
+  <circle cx="985" cy="224" r="70" stroke="#7DD3FC" stroke-opacity="0.07" stroke-width="1" fill="none"/>
+
+  <text x="68" y="82" class="kicker">SEAGPT · OPERATOR PROFILE</text>
+  <text x="64" y="168" class="name">STEVEN SEAGONDOLLAR</text>
+  <line x1="64" y1="192" x2="700" y2="192" stroke="url(#iceLine)" stroke-opacity="0.72" stroke-width="2"/>
+  <text x="64" y="240" class="sub">Agentic Systems · AI Engineering · Cloud Infrastructure</text>
+  <text x="64" y="294" class="stack">Hermes · PaperClip · OpenRouter · GraphRAG · Azure · Docker · Tailscale</text>
+
+  <text x="880" y="306" class="tiny">DROPSHOCK DIGITAL</text>
+  <text x="1020" y="328" class="tiny">RLLY · AI OPS</text>
+</svg>
