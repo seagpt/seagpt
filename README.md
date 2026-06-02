@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://www.stevenseagondollar.com/">Website</a> ·
   <a href="mailto:steven.seagondollar@dropshockdigital.com">Email</a> ·
-  <a href="https://github.com/seagpt?tab=repositories">Repositories</a>
+  <a href="https://github.com/DropShock-Digital">DropShock Digital GitHub</a>
 </p>
 
 ---
@@ -23,19 +23,23 @@ My work sits at the intersection of **AI engineering**, **cloud infrastructure**
 
 ## What I’m focused on
 
-- **Agentic infrastructure** — Hermes, PaperClip-style orchestration, OpenClaw/NemoClaw evaluations, autonomous worker patterns, and human approval loops.
+- **Agentic infrastructure** — Hermes-style agent runtimes, multi-agent orchestration, evaluation workflows, autonomous worker patterns, and human approval loops.
 - **Model routing** — using frontier models where judgment matters and cheaper/open models where throughput matters.
 - **Cloud workstations** — always-on VPS/desktop environments, Tailscale-only access, Docker isolation, noVNC, and agent-accessible machines that keep working when laptops sleep.
 - **AI memory + retrieval** — GraphRAG, bi-temporal memory, Notion/knowledge-base workflows, and source-grounded responses.
-- **Secure AI operations** — prompt-injection awareness, input sanitization, secrets hygiene, evidence-first watchdogs, and fail-closed automation.
+- **Secure AI operations** — prompt-injection awareness, input sanitization, credential hygiene, evidence-first watchdogs, and fail-closed automation.
 - **Client-ready software** — Vite/React sites, backend APIs, CRM/accounting integrations, and deployment pipelines that can be handed off without mystery.
 
 ## Public work
 
 | Project | What it shows | Stack / domain |
 |---|---|---|
-| [Q-KVE Security Research](https://github.com/seagpt/qkve-whitepaper) | Security analysis of KV cache quantization as an attack surface, with responsible-disclosure posture. | LLM security · inference infrastructure · technical writing |
-| [DropShock Digital V9](https://github.com/seagpt/dsd-website-v9) | Branded cinematic website build with a black-ice design system and no WebGL dependency. | Vite · React · GSAP · Lenis · CSS systems |
+| [DropShock Digital](https://github.com/DropShock-Digital) | Public GitHub surface for my creative + technical studio: photography delivery tooling, AI-context tooling, and the current website codebase. | Organization profile · portfolio IA · public repos |
+| [PhotoPackager](https://github.com/DropShock-Digital/PhotoPackager) | Photographer delivery pipeline for packaging shoots, preparing client-ready galleries, and making image delivery less chaotic. | Python · PyQt6 · photography workflow |
+| [LMTokenCook](https://github.com/DropShock-Digital/LMTokenCook) | Context-packaging tool for turning larger files/codebases into model-ready chunks without pretending context windows are infinite. | Python · React · Docker · AI tooling |
+| [DSD Website V2](https://github.com/DropShock-Digital/dsd-website-v2) | Public codebase for DropShock Digital’s black-ice brand system and official web presence. | TypeScript · Next.js 15 · Three.js/R3F |
+
+Some client, security, and infrastructure repositories are intentionally private. The public links above are the repos meant to be reviewed from this profile.
 
 <details>
 <summary><strong>Private / client systems I can discuss at a high level</strong></summary>
@@ -44,7 +48,7 @@ My work sits at the intersection of **AI engineering**, **cloud infrastructure**
 - Notion, Zoho, Gmail, Calendar, Slack, Discord, and Telegram automation pipelines.
 - Website rebuilds and private-review deployments for professional-service clients.
 - AI content/CMS workflows where agents can draft, update, and route human approval.
-- Model evaluation, cost control, and routing through OpenRouter-style provider layers.
+- LLM security review, model evaluation, cost control, and routing through OpenRouter-style provider layers.
 
 </details>
 
@@ -57,7 +61,7 @@ flowchart LR
   agent --> models[Model router: frontier + open models]
   agent --> memory[GraphRAG · durable memory]
   tools --> workflows[Notion · GitHub · CRM · cloud]
-  security[Prompt-injection controls / secrets hygiene / audit trails] -. guardrails .-> agent
+  security[Prompt-injection controls / credential hygiene / audit trails] -. guardrails .-> agent
   cloud[Linux VPS · Docker · Tailscale · noVNC · Railway · Azure] --> agent
 ```
 
@@ -65,11 +69,11 @@ flowchart LR
 
 | Lane | Tools and patterns |
 |---|---|
-| **AI / agents** | Hermes Agent, OpenClaw/NemoClaw evaluation, PaperClip-style orchestration, LangGraph, GraphRAG, MCP, OpenRouter, Claude/Codex/Copilot workflows |
+| **AI / agents** | Agent runtimes, evaluation harnesses, multi-agent orchestration patterns, LangGraph, GraphRAG/RAG, MCP, OpenRouter, Claude/Codex/Copilot workflows |
 | **Cloud / infrastructure** | Linux VPS, Docker, Tailscale, Railway, Azure Functions, Cosmos DB, noVNC, GitHub Actions, cron/watchdog jobs |
 | **Frontend / product** | Vite, React, Tailwind, GSAP, Lenis, Three.js, Framer/CMS workflows, responsive QA, source-fidelity rebuilds |
 | **Automation / data** | Notion API, Zoho Books/CRM, Gmail/Calendar, Slack/Discord/Telegram bots, webhooks, JSONL logs, scripted evidence collection |
-| **Security / reliability** | Prompt-injection threat modeling, secrets handling, sandboxing, audit logs, fail-closed jobs, responsible-disclosure writing |
+| **Security / reliability** | Prompt-injection threat modeling, credential handling, sandboxing, audit logs, fail-closed jobs, responsible-disclosure writing |
 
 ## Engineering stance
 
