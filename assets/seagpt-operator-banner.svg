@@ -1,6 +1,6 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Steven Seagondollar — Agentic Systems, AI Engineering, Cloud Infrastructure</title>
-  <desc id="desc">Dark black-ice operator banner with network map and infrastructure topology.</desc>
+  <title id="title">Steven Seagondollar — AI Systems, Product Engineering, Reliable Operations</title>
+  <desc id="desc">Dark black-ice technical banner with abstract motion lines.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#020208"/>
@@ -59,9 +59,9 @@
   <text x="68" y="82" class="kicker">SEAGPT · OPERATOR PROFILE</text>
   <text x="64" y="168" class="name">STEVEN SEAGONDOLLAR</text>
   <line x1="64" y1="192" x2="700" y2="192" stroke="url(#iceLine)" stroke-opacity="0.72" stroke-width="2"/>
-  <text x="64" y="240" class="sub">Agentic Systems · AI Engineering · Cloud Infrastructure</text>
-  <text x="64" y="294" class="stack">Hermes · Model Routing · OpenRouter · GraphRAG · Azure · Docker · Tailscale</text>
+  <text x="64" y="240" class="sub">AI Systems · Product Engineering · Reliable Operations</text>
+  <text x="64" y="294" class="stack">CURATED PUBLIC SURFACE · PRIVATE SYSTEMS BY DEFAULT</text>
 
   <text x="880" y="306" class="tiny">DROPSHOCK DIGITAL</text>
-  <text x="1020" y="328" class="tiny">RLLY · AI OPS</text>
+  <text x="1020" y="328" class="tiny">AI SYSTEMS</text>
 </svg>

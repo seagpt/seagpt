@@ -1,103 +1,85 @@
 <p align="center">
-  <img src="./assets/seagpt-operator-banner.svg" alt="Steven Seagondollar — Agentic Systems, AI Engineering, Cloud Infrastructure" width="100%" />
+  <img src="./assets/seagpt-operator-banner.svg" alt="Steven Seagondollar — AI Systems, Product Engineering, Reliable Operations" width="100%" />
 </p>
 
 <h1 align="center">Steven Seagondollar</h1>
 
 <p align="center">
-  <strong>Head of Agentic Systems & AI Engineer at Rlly</strong><br />
-  Founder of <strong>DropShock Digital</strong> · Hesperia, California
+  <strong>AI systems engineer · founder of DropShock Digital</strong><br />
+  Southern California
 </p>
 
 <p align="center">
-  <a href="https://www.stevenseagondollar.com/">Website</a> ·
-  <a href="mailto:steven.seagondollar@dropshockdigital.com">Email</a> ·
   <a href="https://github.com/DropShock-Digital">DropShock Digital GitHub</a>
 </p>
 
 ---
 
-I build agentic systems that have somewhere real to run: model routing, durable memory, cloud desktops, workflow automation, and the security layer around all of it.
+I build AI-enabled systems for operators: workflow automation, retrieval, review loops, production software, and the reliability practices that keep those systems useful after the demo.
 
-My work sits at the intersection of **AI engineering**, **cloud infrastructure**, **developer tooling**, and **operator-grade automation**. I care about systems that survive contact with the real world: rate limits, messy user context, bad inputs, cost ceilings, failing jobs, and humans who need proof before they trust an agent.
+My public work sits at the intersection of **AI engineering**, **product development**, **automation**, and **operational reliability**. The parts worth showing here are intentionally curated: enough to evaluate taste and direction, not enough to expose client systems, internal infrastructure, or private operating details.
 
 ## What I’m focused on
 
-- **Agentic infrastructure** — Hermes-style agent runtimes, multi-agent orchestration, evaluation workflows, autonomous worker patterns, and human approval loops.
-- **Model routing** — using frontier models where judgment matters and cheaper/open models where throughput matters.
-- **Cloud workstations** — always-on VPS/desktop environments, Tailscale-only access, Docker isolation, noVNC, and agent-accessible machines that keep working when laptops sleep.
-- **AI memory + retrieval** — GraphRAG, bi-temporal memory, Notion/knowledge-base workflows, and source-grounded responses.
-- **Secure AI operations** — prompt-injection awareness, input sanitization, credential hygiene, evidence-first watchdogs, and fail-closed automation.
-- **Client-ready software** — Vite/React sites, backend APIs, CRM/accounting integrations, and deployment pipelines that can be handed off without mystery.
+- **AI-enabled operations** — agent workflows, review loops, evaluation patterns, and practical human approval paths.
+- **Model-aware product work** — routing work by judgment, latency, context, and cost instead of chasing one-model-fits-all designs.
+- **Knowledge systems** — source-grounded retrieval, durable notes, and workflows that make messy business context usable.
+- **Secure automation** — careful permissions, input boundaries, access hygiene, evidence trails, and fail-closed defaults.
+- **Client-ready software** — websites, internal tools, integrations, and deployment handoffs built so a real team can maintain them.
 
 ## Public work
 
-| Project | What it shows | Stack / domain |
+| Project | What it shows | Domain |
 |---|---|---|
-| [DropShock Digital](https://github.com/DropShock-Digital) | Public GitHub surface for my creative + technical studio: photography delivery tooling, AI-context tooling, and the current website codebase. | Organization profile · portfolio IA · public repos |
-| [PhotoPackager](https://github.com/DropShock-Digital/PhotoPackager) | Photographer delivery pipeline for packaging shoots, preparing client-ready galleries, and making image delivery less chaotic. | Python · PyQt6 · photography workflow |
-| [LMTokenCook](https://github.com/DropShock-Digital/LMTokenCook) | Context-packaging tool for turning larger files/codebases into model-ready chunks without pretending context windows are infinite. | Python · React · Docker · AI tooling |
-| [DSD Website V2](https://github.com/DropShock-Digital/dsd-website-v2) | Public codebase for DropShock Digital’s black-ice brand system and official web presence. | TypeScript · Next.js 15 · Three.js/R3F |
+| [DropShock Digital](https://github.com/DropShock-Digital) | Public GitHub surface for my creative + technical studio and selected open tools. | Studio profile · public tools |
+| [PhotoPackager](https://github.com/DropShock-Digital/PhotoPackager) | Photographer delivery workflow tooling for packaging shoots and preparing client-ready exports. | Photography workflow |
+| [LMTokenCook](https://github.com/DropShock-Digital/LMTokenCook) | Context-packaging utility for preparing larger files and codebases for model review without pretending context windows are infinite. | AI tooling |
 
-Some client, security, and infrastructure repositories are intentionally private. The public links above are the repos meant to be reviewed from this profile.
+Client, security, website, and infrastructure repositories are private by default. If a repository is not linked here, assume that is intentional.
 
 <details>
-<summary><strong>Private / client systems I can discuss at a high level</strong></summary>
+<summary><strong>Private work I can discuss at a high level</strong></summary>
 
-- Agent workstations and cloud desktops for AI-assisted team operations.
-- Notion, Zoho, Gmail, Calendar, Slack, Discord, and Telegram automation pipelines.
-- Website rebuilds and private-review deployments for professional-service clients.
-- AI content/CMS workflows where agents can draft, update, and route human approval.
-- LLM security review, model evaluation, cost control, and routing through OpenRouter-style provider layers.
+- AI-assisted operations for teams that need approval, auditability, and clear handoff points.
+- Private software builds and website rebuilds for professional-service clients.
+- Media workflow tooling for faster capture, packaging, and delivery.
+- Security-minded review of AI systems, prompts, permissions, and public exposure.
 
 </details>
 
-## Systems map
+## How I work
 
-```mermaid
-flowchart LR
-  human[Human operator] --> agent[Hermes / agent runtime]
-  agent --> tools[MCP · shell · browser · APIs]
-  agent --> models[Model router: frontier + open models]
-  agent --> memory[GraphRAG · durable memory]
-  tools --> workflows[Notion · GitHub · CRM · cloud]
-  security[Prompt-injection controls / credential hygiene / audit trails] -. guardrails .-> agent
-  cloud[Linux VPS · Docker · Tailscale · noVNC · Railway · Azure] --> agent
-```
-
-## Toolbox
-
-| Lane | Tools and patterns |
+| Principle | What it means in practice |
 |---|---|
-| **AI / agents** | Agent runtimes, evaluation harnesses, multi-agent orchestration patterns, LangGraph, GraphRAG/RAG, MCP, OpenRouter, Claude/Codex/Copilot workflows |
-| **Cloud / infrastructure** | Linux VPS, Docker, Tailscale, Railway, Azure Functions, Cosmos DB, noVNC, GitHub Actions, cron/watchdog jobs |
-| **Frontend / product** | Vite, React, Tailwind, GSAP, Lenis, Three.js, Framer/CMS workflows, responsive QA, source-fidelity rebuilds |
-| **Automation / data** | Notion API, Zoho Books/CRM, Gmail/Calendar, Slack/Discord/Telegram bots, webhooks, JSONL logs, scripted evidence collection |
-| **Security / reliability** | Prompt-injection threat modeling, credential handling, sandboxing, audit logs, fail-closed jobs, responsible-disclosure writing |
+| **Evidence beats narration** | Logs, probes, diffs, screenshots, and test output come before confident prose. |
+| **Cost is architecture** | Good AI systems route work by judgment, context length, latency, and price. |
+| **Boundaries make agents useful** | Autonomy needs scope, permissions, rollback paths, and human approval at the right moments. |
+| **Source fidelity matters** | Public claims and interfaces should be grounded in real requirements, not invented proof. |
+| **Security is posture, not decoration** | Inputs, tools, access, memory, and deployment surfaces are designed with abuse in mind. |
 
-## Engineering stance
+## Toolbox, intentionally summarized
 
-- **Evidence beats narration.** Logs, probes, diffs, screenshots, and test output come before confident prose.
-- **Cost is architecture.** A good AI system routes work by judgment, context length, latency, and price — not by brand loyalty.
-- **Agents need boundaries.** Useful autonomy still needs scope, permissions, rollback paths, and human approval at the right moments.
-- **Source fidelity matters.** I’d rather ship a restrained system grounded in real requirements than a flashy interface full of invented proof.
-- **Security is not a feature card.** It is how inputs, prompts, tools, credentials, memory, and deployment surfaces are designed.
+| Lane | Public-safe summary |
+|---|---|
+| **AI / agents** | Agent workflows, evaluation, retrieval, model routing, approval loops |
+| **Product engineering** | TypeScript, Python, React, backend APIs, deployment pipelines |
+| **Automation / data** | Business-system integrations, webhook flows, structured logs, evidence collection |
+| **Reliability / security** | Sandboxing, audit trails, access hygiene, permission boundaries, failure-mode review |
 
 ## Learning track
 
-I’m actively sharpening the cloud/AI certification path around Azure fundamentals, Azure administration, AI app/agent development, architecture, DevOps, and cloud/AI security. Prior credential work includes Google AI Essentials and technical-support foundations.
+I’m sharpening the cloud and AI certification path around administration, AI app development, architecture, DevOps, and cloud security. Prior coursework includes Google AI Essentials and technical-support foundations.
 
 ## Good conversations to start
 
-- Building internal AI coworker infrastructure without runaway SaaS costs.
-- Turning messy Notion/CRM/email data into useful agent context.
-- Designing approval loops for autonomous coding, research, and admin agents.
-- Cloud desktops and agent-accessible workstations for teams.
-- Prompt-injection defense, input sanitization, and practical AI security controls.
-- High-end developer-facing websites that do not look vibe-coded.
+- Building internal AI systems without runaway SaaS costs.
+- Turning messy business data into useful, source-grounded context.
+- Designing approval loops for autonomous coding, research, and admin workflows.
+- Reviewing public surfaces for security, privacy, and social-engineering risk.
+- Building developer-facing websites that do not look vibe-coded.
 
 ---
 
 <p align="center">
-  <strong>Build the system. Prove it works. Keep it running.</strong>
+  <strong>Build the system. Prove it works. Keep the exposure intentional.</strong>
 </p>
