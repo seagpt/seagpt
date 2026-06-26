@@ -1,3 +1,47 @@
+
+<!-- README-ROAST:START -->
+
+## README Roast Pass
+
+Roasted with [https://github.com/hidai25/readme-roast](https://github.com/hidai25/readme-roast) on 2026-06-25. This block is evidence-only: repo metadata, root files, and the existing README were scanned before writing.
+
+### Fast roast
+
+- Pre-pass README score: **67/100** by the readme-roast categories: first impression, install friction, trust, visuals, and structure.
+- No clear H1 hero near the top.
+- Install/setup path was not obvious.
+- Biggest fix in this pass: added a Mermaid repo map plus a quick operator scan without deleting the existing README content.
+
+### Mermaid repository map
+
+```mermaid
+flowchart TD
+  R["seagpt/seagpt"]
+  R --> N1["README.md"]
+  R --> N2["assets/"]
+  R --> MORE["additional repo files"]
+```
+
+### Operator quick scan
+
+| Signal | Evidence |
+|---|---|
+| GitHub repo | [seagpt/seagpt](https://github.com/seagpt/seagpt) |
+| Description | GitHub profile README for Steven Seagondollar |
+| Default branch | `main` |
+| Primary languages | Not reported by GitHub yet |
+| Install path | Not detected from root files |
+| Run/build hint | Not detected from root files |
+| Key files scanned | README.md |
+
+### README next upgrades
+
+- Add real screenshots, GIFs, or CLI output once the repo has a stable demo path.
+- Pin exact setup commands after verifying them in a clean environment.
+- Link production/staging/docs only when the URL is durable and intended for readers.
+
+<!-- README-ROAST:END -->
+
 <p align="center">
   <img src="./assets/seagpt-operator-banner.svg" alt="Steven Seagondollar — AI Systems, Product Engineering, Reliable Operations" width="100%" />
 </p>
